@@ -1,7 +1,10 @@
 <html>
-   
    <head>
-      <link rel="stylesheet" type="text/css" href="es_03_validation/style.css">
+   <style>
+      .error {
+         color: #FF0000;
+      }
+   </style>
    </head>
    
    <body>
@@ -95,7 +98,7 @@
                   $pswErr = "*Invalid password";
                }
             }
-         }
+      }
       function test_input($data) {
          $data = trim($data);
          $data = stripslashes($data);
